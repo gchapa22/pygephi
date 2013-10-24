@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2013-10-09">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="Born" title="Born" type="string"></attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="Born" title="Born" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="80" label="Elba Esther Gordillo">
+        <attvalues>
+          <attvalue for="Born" value="1/1/2005"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </node>
+      <node id="81" label="Roberto Madrazo Pintado">
+        <attvalues>
+          <attvalue for="Born" value="2/1/2005"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:color r="0" g="255" b="0"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="80" target="81">
+        <attvalues>
+          <attvalue for="Born" value="3/1/2005"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
