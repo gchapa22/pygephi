@@ -1,0 +1,538 @@
+<gexf xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gephi.org/gexf/1.1draft" xmlns:ns0="xsi" version="1.1" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.1draft.xsd">
+  <meta lastmodified="2013-11-14T15:41:31.436464">
+    <creator>Elba Esther Gordillo</creator>
+    <description>Analisis de la red social politica en Mexico</description>
+  </meta>
+  <graph defaultedgetype="directed" label="Red Social Politica en Mexico" mode="static">
+    <attributes class="node" mode="dynamic"/>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="fecha" type="date">
+        <default></default>
+      </attribute>
+      <attribute id="1" title="evento" type="string">
+        <default></default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="dynamic"/>
+    <attributes class="edge" mode="static"/>
+    <nodes>
+      <node id="1" label="Manuel Bartlett">
+        <attvalues>
+          <attvalue for="0" value="1/1/1970"/>
+          <attvalue for="1" value="Secretario de Gobernacion"/>
+        </attvalues>
+      </node>
+      <node id="2" label="Jaime Torres Bodet">
+        <attvalues>
+          <attvalue for="0" value="5/13/1974"/>
+          <attvalue for="1" value="dos veces Secretario de Educacion Publica, se suicida"/>
+        </attvalues>
+      </node>
+      <node id="3" label="Manlio Fabio Beltrones">
+        <attvalues>
+          <attvalue for="0" value="10/22/1991"/>
+          <attvalue for="1" value="Gobernador de Sonora"/>
+          <attvalue for="0" value="12/5/2005"/>
+          <attvalue for="1" value="Ex-Presidente de México"/>
+        </attvalues>
+      </node>
+      <node id="4" label="Carlos Salinas de Gortari">
+        <attvalues>
+          <attvalue for="0" value="5/1/1992"/>
+          <attvalue for="1" value="Presidente de la Repubica"/>
+          <attvalue for="0" value="9/1/2010"/>
+          <attvalue for="1" value="Senador de Sonora"/>
+        </attvalues>
+      </node>
+      <node id="5" label="Manuel Camacho Solis">
+        <attvalues>
+          <attvalue for="0" value="11/29/1993"/>
+          <attvalue for="1" value="Secreteario de Relaciones Exteriores"/>
+        </attvalues>
+      </node>
+      <node id="6" label="Patricia Pedrero Iduarte">
+        <attvalues>
+          <attvalue for="0" value="1/1/1994"/>
+          <attvalue for="1" value="Procuradora estatal"/>
+        </attvalues>
+      </node>
+      <node id="7" label="Roberto del Cueto">
+        <attvalues>
+          <attvalue for="0" value="1/1/1994"/>
+          <attvalue for="1" value="Subgobernador del Banco de Mexico"/>
+        </attvalues>
+      </node>
+      <node id="8" label="Ernesto Zedillo Ponce de Leon">
+        <attvalues>
+          <attvalue for="0" value="12/1/1994"/>
+          <attvalue for="1" value="Presidente de Mexico"/>
+        </attvalues>
+      </node>
+      <node id="9" label="Romero Deschamps">
+        <attvalues>
+          <attvalue for="0" value="1/1/1996"/>
+          <attvalue for="1" value="Director del sindicato de Pemex"/>
+          <attvalue for="0" value="12/1/2003"/>
+          <attvalue for="1" value="Diputado federal del PRI"/>
+        </attvalues>
+      </node>
+      <node id="10" label="Roberto Campa Cifrian">
+        <attvalues>
+          <attvalue for="0" value="6/1/1997"/>
+          <attvalue for="1" value="Presidente del comite del PRI en el DF"/>
+        </attvalues>
+      </node>
+      <node id="11" label="Manuel Camacho">
+        <attvalues>
+          <attvalue for="0" value="1/1/2000"/>
+          <attvalue for="1" value="Politico y funcionario priista"/>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Gobernador de Sonora"/>
+        </attvalues>
+      </node>
+      <node id="12" label="Eduardo Bours">
+        <attvalues>
+          <attvalue for="0" value="1/1/2000"/>
+          <attvalue for="1" value="Senador "/>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Presidente de México"/>
+        </attvalues>
+      </node>
+      <node id="13" label="Vicente Fox">
+        <attvalues>
+          <attvalue for="0" value="12/1/2000"/>
+          <attvalue for="1" value="Presidente de Mexico"/>
+          <attvalue for="0" value="12/3/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="14" label="Madrazo">
+        <attvalues>
+          <attvalue for="0" value="2/1/2002"/>
+          <attvalue for="1" value="Politico PRI"/>
+          <attvalue for="0" value="7/18/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="15" label="Emilio Chuayffet">
+        <attvalues>
+          <attvalue for="0" value="1/1/2003"/>
+          <attvalue for="1" value="Coordinador del PRI"/>
+          <attvalue for="0" value="9/10/2003"/>
+          <attvalue for="1" value="Coordinadora de Diputados priistas en la 59 legislatura"/>
+        </attvalues>
+      </node>
+      <node id="16" label="Elba Esther Gordillo">
+        <attvalues>
+          <attvalue for="0" value="1/1/2003"/>
+          <attvalue for="1" value="Lider del PRI"/>
+          <attvalue for="0" value="11/30/2005"/>
+          <attvalue for="1" value="Ex-Secretario de relaciones Exteriores"/>
+        </attvalues>
+      </node>
+      <node id="17" label="Jorge Castaneda Gutman">
+        <attvalues>
+          <attvalue for="0" value="1/6/2003"/>
+          <attvalue for="1" value="Secretario de relaciones Exteriores"/>
+          <attvalue for="0" value="6/2/2004"/>
+          <attvalue for="1" value="Diputado PRI"/>
+          <attvalue for="0" value="6/14/2004"/>
+          <attvalue for="1" value="Diputado PRI"/>
+          <attvalue for="0" value="11/20/2005"/>
+          <attvalue for="1" value="Diputado Veracruzano"/>
+          <attvalue for="0" value="7/13/2006"/>
+          <attvalue for="1" value="Renunció al PRI"/>
+          <attvalue for="0" value="12/1/2006"/>
+          <attvalue for="1" value="Director general del ISSSTE"/>
+          <attvalue for="0" value="1/31/2007"/>
+          <attvalue for="1" value="Testaferro de Elba Esther Gordillo"/>
+          <attvalue for="0" value="6/15/2008"/>
+          <attvalue for="1" value="Ingresó al PAN; &quot;priista prototípico&quot;"/>
+          <attvalue for="0" value="9/6/2011"/>
+          <attvalue for="1" value="Ex-director del ISSTE"/>
+        </attvalues>
+      </node>
+      <node id="18" label="Miguel Angel Yunes">
+        <attvalues>
+          <attvalue for="0" value="9/10/2003"/>
+          <attvalue for="1" value="Secretario de Elba Esther Gordillo"/>
+          <attvalue for="0" value="7/21/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+          <attvalue for="0" value="8/14/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+          <attvalue for="0" value="9/17/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="21" label="Roberto Madrazo">
+        <attvalues>
+          <attvalue for="0" value="5/12/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+          <attvalue for="0" value="8/14/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="23" label="Tomas Ruiz ">
+        <attvalues>
+          <attvalue for="0" value="6/2/2004"/>
+          <attvalue for="1" value="Diputado PRI"/>
+          <attvalue for="0" value="10/19/2004"/>
+          <attvalue for="1" value="Presidente PAN"/>
+        </attvalues>
+      </node>
+      <node id="26" label="Joel Ayala ">
+        <attvalues>
+          <attvalue for="0" value="7/11/2004"/>
+          <attvalue for="1" value="Dirigise FSTSE"/>
+          <attvalue for="0" value="11/27/2011"/>
+          <attvalue for="1" value="Precandidato presidencial del PRI"/>
+        </attvalues>
+      </node>
+      <node id="29" label="Ulises Ruiz">
+        <attvalues>
+          <attvalue for="0" value="8/5/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="30" label="Jose Murat">
+        <attvalues>
+          <attvalue for="0" value="8/14/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="34" label="Presidente Fox">
+        <attvalues>
+          <attvalue for="0" value="9/26/2004"/>
+          <attvalue for="1" value="Presidente PAN"/>
+        </attvalues>
+      </node>
+      <node id="35" label="Diodoro Carrasco">
+        <attvalues>
+          <attvalue for="0" value="10/11/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="36" label="Gloria Trevi">
+        <attvalues>
+          <attvalue for="0" value="10/11/2004"/>
+          <attvalue for="1" value="Cantante/Artista"/>
+        </attvalues>
+      </node>
+      <node id="37" label="Enrique Pena Nieto">
+        <attvalues>
+          <attvalue for="0" value="10/17/2004"/>
+          <attvalue for="1" value="Candidato a la gobernatura del Edo. de Mexico"/>
+        </attvalues>
+      </node>
+      <node id="39" label=" Jorge G. Castaneda">
+        <attvalues>
+          <attvalue for="0" value="10/24/2004"/>
+          <attvalue for="1" value="Interlocutor"/>
+        </attvalues>
+      </node>
+      <node id="40" label="Antonio Manriquez Guluarte">
+        <attvalues>
+          <attvalue for="0" value="10/29/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="41" label="Beatriz Paredes">
+        <attvalues>
+          <attvalue for="0" value="11/3/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="42" label="Luis Armando Reynoso Femat">
+        <attvalues>
+          <attvalue for="0" value="11/20/2004"/>
+          <attvalue for="1" value="Gobernador de Aguascalientes"/>
+        </attvalues>
+      </node>
+      <node id="43" label="Oscar Gonzalez">
+        <attvalues>
+          <attvalue for="0" value="11/20/2004"/>
+          <attvalue for="1" value="Ex-Candidato a la gobernatura de Aguascalientes"/>
+          <attvalue for="0" value="12/5/2005"/>
+          <attvalue for="1" value="Candidato presidencial del PRI"/>
+        </attvalues>
+      </node>
+      <node id="44" label="Francisco Rojas ">
+        <attvalues>
+          <attvalue for="0" value="11/21/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="46" label=" Miguel Angel Jimenez ">
+        <attvalues>
+          <attvalue for="0" value="1/1/2005"/>
+          <attvalue for="1" value="Fundador de la Nueva Alianza"/>
+        </attvalues>
+      </node>
+      <node id="47" label="Carlos Madrazo">
+        <attvalues>
+          <attvalue for="0" value="2/27/2005"/>
+          <attvalue for="1" value="Nombrado presidente del PRI (en &lt;--- esa fecha)"/>
+        </attvalues>
+      </node>
+      <node id="48" label="Rafael Ochoa Guzman">
+        <attvalues>
+          <attvalue for="0" value="10/19/2005"/>
+          <attvalue for="1" value="Secretario General del SNTE"/>
+        </attvalues>
+      </node>
+      <node id="49" label="Carlos Jonguitud Barrios">
+        <attvalues>
+          <attvalue for="0" value="10/19/2005"/>
+          <attvalue for="1" value="Fundador de Vanguardia Revolucionaria del Magisterio"/>
+        </attvalues>
+      </node>
+      <node id="50" label=" Emilio Chuayffet">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Lider de los diputados priistas"/>
+        </attvalues>
+      </node>
+      <node id="51" label="Diego Armando Maradona">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Ex-jugador de futbol"/>
+          <attvalue for="0" value="5/15/2008"/>
+          <attvalue for="1" value="Presidente de la Repúbica"/>
+          <attvalue for="0" value="8/8/2011"/>
+          <attvalue for="1" value="Presindente de México"/>
+        </attvalues>
+      </node>
+      <node id="53" label="Everardo Moreno">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Precandidato presidencial del PRI"/>
+        </attvalues>
+      </node>
+      <node id="54" label="Natividad Gonzalez Paras">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Gobernador de Nuevo Leon"/>
+        </attvalues>
+      </node>
+      <node id="55" label="Nestor Kirchner">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Presidente de Argentina"/>
+        </attvalues>
+      </node>
+      <node id="57" label="Victor Gonzalez Torres">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Dr. Simi"/>
+        </attvalues>
+      </node>
+      <node id="58" label="Roberto Madrazo Pintado">
+        <attvalues>
+          <attvalue for="0" value="11/13/2005"/>
+          <attvalue for="1" value="Candidato Presidencial del PRI"/>
+        </attvalues>
+      </node>
+      <node id="59" label="Alfredo Rivera Flores">
+        <attvalues>
+          <attvalue for="0" value="11/16/2005"/>
+          <attvalue for="1" value="Autor &quot;La Sosa Nostra&quot;"/>
+        </attvalues>
+      </node>
+      <node id="60" label="Gerardo Sosa Castelan">
+        <attvalues>
+          <attvalue for="0" value="11/16/2005"/>
+          <attvalue for="1" value="Presidente del PRI en Hidalgo"/>
+          <attvalue for="0" value="8/8/2011"/>
+          <attvalue for="1" value="Secretaria, Candidata a presidencia"/>
+        </attvalues>
+      </node>
+      <node id="61" label="Miguel Angel Granados Chapa">
+        <attvalues>
+          <attvalue for="0" value="11/16/2005"/>
+          <attvalue for="1" value="Autor prologo &quot;La Sosa Nostra&quot;"/>
+        </attvalues>
+      </node>
+      <node id="62" label="Arturo Montiel">
+        <attvalues>
+          <attvalue for="0" value="11/20/2005"/>
+          <attvalue for="1" value="Gobernador del Estado de Mexico"/>
+        </attvalues>
+      </node>
+      <node id="63" label="Enrique Jackson">
+        <attvalues>
+          <attvalue for="0" value="11/20/2005"/>
+          <attvalue for="1" value="Presidente del Senado"/>
+        </attvalues>
+      </node>
+      <node id="64" label="Enrique Martinez">
+        <attvalues>
+          <attvalue for="0" value="11/20/2005"/>
+          <attvalue for="1" value="Gobernador de Coahuila"/>
+        </attvalues>
+      </node>
+      <node id="66" label="Tomas Ruiz">
+        <attvalues>
+          <attvalue for="0" value="11/20/2005"/>
+          <attvalue for="1" value="Diputado Veracruzano"/>
+        </attvalues>
+      </node>
+      <node id="67" label="Felipe Calderon">
+        <attvalues>
+          <attvalue for="0" value="11/25/2005"/>
+          <attvalue for="1" value="Candidato presidencial del PAN"/>
+        </attvalues>
+      </node>
+      <node id="68" label="Andres Manuel Lopez Obrador">
+        <attvalues>
+          <attvalue for="0" value="11/30/2005"/>
+          <attvalue for="1" value="Candidato presidencial"/>
+        </attvalues>
+      </node>
+      <node id="70" label="Carlos Armando Biebrich">
+        <attvalues>
+          <attvalue for="0" value="12/5/2005"/>
+          <attvalue for="1" value="Secretario de Accion Electoral"/>
+        </attvalues>
+      </node>
+      <node id="72" label="Gabino Cue Monteagudo">
+        <attvalues>
+          <attvalue for="0" value="12/5/2005"/>
+          <attvalue for="1" value="Candidato a la gobernatura de Oaxaca"/>
+        </attvalues>
+      </node>
+      <node id="73" label="Mariano Palacios Alcocer">
+        <attvalues>
+          <attvalue for="0" value="12/5/2005"/>
+          <attvalue for="1" value="Presidente el Comite Nacional priista"/>
+        </attvalues>
+      </node>
+      <node id="75" label="Ulises Ruiz Ortiz">
+        <attvalues>
+          <attvalue for="0" value="12/5/2005"/>
+          <attvalue for="1" value="Gobernador de Oaxaca"/>
+        </attvalues>
+      </node>
+      <node id="76" label="Juan Molinar Horcasitas">
+        <attvalues>
+          <attvalue for="0" value="1/1/2006"/>
+          <attvalue for="1" value="Diputado federal del PAN"/>
+        </attvalues>
+      </node>
+      <node id="81" label="Nicolas Sarkozy">
+        <attvalues>
+          <attvalue for="0" value="5/16/2007"/>
+          <attvalue for="1" value="Presidente de Francia"/>
+        </attvalues>
+      </node>
+      <node id="82" label="German Martinez">
+        <attvalues>
+          <attvalue for="0" value="12/8/2007"/>
+          <attvalue for="1" value="Presidente del PAN"/>
+        </attvalues>
+      </node>
+      <node id="83" label="Josefina Vazquez Moya">
+        <attvalues>
+          <attvalue for="0" value="5/15/2008"/>
+          <attvalue for="1" value="Secretaria de Educacion"/>
+        </attvalues>
+      </node>
+      <node id="85" label="Fernando Gonzalez">
+        <attvalues>
+          <attvalue for="0" value="5/15/2008"/>
+          <attvalue for="1" value="Subsecretario de Educacion Basica"/>
+        </attvalues>
+      </node>
+      <node id="87" label="Fermin Trujillo Fuentes">
+        <attvalues>
+          <attvalue for="0" value="12/8/2008"/>
+          <attvalue for="1" value="Senador de Sonora"/>
+        </attvalues>
+      </node>
+      <node id="88" label="Benjamin Gonzalez Roar">
+        <attvalues>
+          <attvalue for="0" value="1/1/2009"/>
+          <attvalue for="1" value="Director de la Loteria Nacional"/>
+        </attvalues>
+      </node>
+      <node id="89" label="Aureliano Pena Lomeli">
+        <attvalues>
+          <attvalue for="0" value="1/1/2009"/>
+          <attvalue for="1" value="Rector de la UNAM"/>
+        </attvalues>
+      </node>
+      <node id="90" label="Wanda Sigrid Arzt Colunga">
+        <attvalues>
+          <attvalue for="0" value="1/10/2009"/>
+          <attvalue for="1" value="Comisionada del IFAI"/>
+        </attvalues>
+      </node>
+      <node id="91" label="Maria Elena Perez-Jaen Zermeno">
+        <attvalues>
+          <attvalue for="0" value="9/24/2009"/>
+          <attvalue for="1" value="Integrante del IFAI"/>
+        </attvalues>
+      </node>
+      <node id="94" label="Aguirre Rivero">
+        <attvalues>
+          <attvalue for="0" value="1/4/2011"/>
+          <attvalue for="1" value="Gobernador de Guerrero"/>
+        </attvalues>
+      </node>
+      <node id="95" label="Carlos Slim">
+        <attvalues>
+          <attvalue for="0" value="5/29/2011"/>
+          <attvalue for="1" value="empresario mexicano"/>
+        </attvalues>
+      </node>
+      <node id="96" label="Gil Zuarth">
+        <attvalues>
+          <attvalue for="0" value="5/29/2011"/>
+          <attvalue for="1" value="Secretario paticular de Felipe Calderon"/>
+        </attvalues>
+      </node>
+      <node id="97" label="Ernesto Cordero">
+        <attvalues>
+          <attvalue for="0" value="6/17/2011"/>
+          <attvalue for="1" value="pre-candidato presidencial del PAN"/>
+        </attvalues>
+      </node>
+      <node id="98" label="Alonso Lujambio">
+        <attvalues>
+          <attvalue for="0" value="7/3/2011"/>
+          <attvalue for="1" value="Secretario"/>
+        </attvalues>
+      </node>
+      <node id="99" label="Fernando Larrazabal">
+        <attvalues>
+          <attvalue for="0" value="7/8/2011"/>
+          <attvalue for="1" value="Alcalde de la ciudad de Monterrey"/>
+        </attvalues>
+      </node>
+      <node id="100" label="Zeferino Salgado">
+        <attvalues>
+          <attvalue for="0" value="7/8/2011"/>
+          <attvalue for="1" value="delegado de la Secretaria de Comunicaciones y Transportes"/>
+        </attvalues>
+      </node>
+      <node id="101" label="Jesus Villalobos">
+        <attvalues>
+          <attvalue for="0" value="7/12/2011"/>
+          <attvalue for="1" value="Director general del ISSSTE"/>
+        </attvalues>
+      </node>
+      <node id="106" label="Ernesto Gandara">
+        <attvalues>
+          <attvalue for="0" value="9/1/2012"/>
+          <attvalue for="1" value="Senador "/>
+        </attvalues>
+      </node>
+      <node id="107" label="Luis Chavez Orozco">
+        <attvalues>
+          <attvalue for="0" value="antes de 5/13/1974"/>
+          <attvalue for="1" value="historiador que habia sido subsecretario de Eduaccion"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges/>
+  </graph>
+</gexf>
