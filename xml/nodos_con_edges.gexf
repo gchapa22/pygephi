@@ -1,0 +1,1240 @@
+<gexf xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gephi.org/gexf/1.1draft" xmlns:ns0="xsi" version="1.1" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.1draft.xsd">
+  <meta lastmodified="2013-11-25T18:50:22.461700">
+    <creator>Elba Esther Gordillo</creator>
+    <description>Analisis de la red social politica en Mexico</description>
+  </meta>
+  <graph defaultedgetype="undirected" label="Red Social Politica en Mexico" mode="static">
+    <attributes class="node" mode="dynamic"/>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="fecha" type="date">
+        <default></default>
+      </attribute>
+      <attribute id="1" title="evento" type="string">
+        <default></default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="dynamic"/>
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="fecha" type="date">
+        <default></default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1" label="Manuel Bartlett">
+        <attvalues>
+          <attvalue for="0" value="1/1/1970"/>
+          <attvalue for="1" value="Secretario de Gobernacion"/>
+        </attvalues>
+      </node>
+      <node id="2" label="Jaime Torres Bodet">
+        <attvalues>
+          <attvalue for="0" value="5/13/1974"/>
+          <attvalue for="1" value="dos veces Secretario de Educacion Publica, se suicida"/>
+        </attvalues>
+      </node>
+      <node id="3" label="Manlio Fabio Beltrones">
+        <attvalues>
+          <attvalue for="0" value="10/22/1991"/>
+          <attvalue for="1" value="Gobernador de Sonora"/>
+          <attvalue for="0" value="12/5/2005"/>
+          <attvalue for="1" value="Ex-Presidente de México"/>
+        </attvalues>
+      </node>
+      <node id="4" label="Carlos Salinas de Gortari">
+        <attvalues>
+          <attvalue for="0" value="5/1/1992"/>
+          <attvalue for="1" value="Presidente de la Repubica"/>
+          <attvalue for="0" value="9/1/2010"/>
+          <attvalue for="1" value="Senador de Sonora"/>
+        </attvalues>
+      </node>
+      <node id="5" label="Manuel Camacho Solis">
+        <attvalues>
+          <attvalue for="0" value="11/29/1993"/>
+          <attvalue for="1" value="Secreteario de Relaciones Exteriores"/>
+        </attvalues>
+      </node>
+      <node id="6" label="Patricia Pedrero Iduarte">
+        <attvalues>
+          <attvalue for="0" value="1/1/1994"/>
+          <attvalue for="1" value="Procuradora estatal"/>
+        </attvalues>
+      </node>
+      <node id="7" label="Roberto del Cueto">
+        <attvalues>
+          <attvalue for="0" value="1/1/1994"/>
+          <attvalue for="1" value="Subgobernador del Banco de Mexico"/>
+        </attvalues>
+      </node>
+      <node id="8" label="Ernesto Zedillo Ponce de Leon">
+        <attvalues>
+          <attvalue for="0" value="12/1/1994"/>
+          <attvalue for="1" value="Presidente de Mexico"/>
+        </attvalues>
+      </node>
+      <node id="9" label="Romero Deschamps">
+        <attvalues>
+          <attvalue for="0" value="1/1/1996"/>
+          <attvalue for="1" value="Director del sindicato de Pemex"/>
+          <attvalue for="0" value="12/1/2003"/>
+          <attvalue for="1" value="Diputado federal del PRI"/>
+        </attvalues>
+      </node>
+      <node id="10" label="Roberto Campa Cifrian">
+        <attvalues>
+          <attvalue for="0" value="6/1/1997"/>
+          <attvalue for="1" value="Presidente del comite del PRI en el DF"/>
+        </attvalues>
+      </node>
+      <node id="11" label="Manuel Camacho">
+        <attvalues>
+          <attvalue for="0" value="1/1/2000"/>
+          <attvalue for="1" value="Politico y funcionario priista"/>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Gobernador de Sonora"/>
+        </attvalues>
+      </node>
+      <node id="12" label="Eduardo Bours">
+        <attvalues>
+          <attvalue for="0" value="1/1/2000"/>
+          <attvalue for="1" value="Senador "/>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Presidente de México"/>
+        </attvalues>
+      </node>
+      <node id="13" label="Vicente Fox">
+        <attvalues>
+          <attvalue for="0" value="12/1/2000"/>
+          <attvalue for="1" value="Presidente de Mexico"/>
+          <attvalue for="0" value="12/3/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="14" label="Madrazo">
+        <attvalues>
+          <attvalue for="0" value="2/1/2002"/>
+          <attvalue for="1" value="Politico PRI"/>
+          <attvalue for="0" value="7/18/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="15" label="Emilio Chuayffet">
+        <attvalues>
+          <attvalue for="0" value="1/1/2003"/>
+          <attvalue for="1" value="Coordinador del PRI"/>
+          <attvalue for="0" value="9/10/2003"/>
+          <attvalue for="1" value="Coordinadora de Diputados priistas en la 59 legislatura"/>
+        </attvalues>
+      </node>
+      <node id="16" label="Elba Esther Gordillo">
+        <attvalues>
+          <attvalue for="0" value="1/1/2003"/>
+          <attvalue for="1" value="Lider del PRI"/>
+          <attvalue for="0" value="11/30/2005"/>
+          <attvalue for="1" value="Ex-Secretario de relaciones Exteriores"/>
+        </attvalues>
+      </node>
+      <node id="17" label="Jorge Castaneda Gutman">
+        <attvalues>
+          <attvalue for="0" value="1/6/2003"/>
+          <attvalue for="1" value="Secretario de relaciones Exteriores"/>
+          <attvalue for="0" value="6/2/2004"/>
+          <attvalue for="1" value="Diputado PRI"/>
+          <attvalue for="0" value="6/14/2004"/>
+          <attvalue for="1" value="Diputado PRI"/>
+          <attvalue for="0" value="11/20/2005"/>
+          <attvalue for="1" value="Diputado Veracruzano"/>
+          <attvalue for="0" value="7/13/2006"/>
+          <attvalue for="1" value="Renunció al PRI"/>
+          <attvalue for="0" value="12/1/2006"/>
+          <attvalue for="1" value="Director general del ISSSTE"/>
+          <attvalue for="0" value="1/31/2007"/>
+          <attvalue for="1" value="Testaferro de Elba Esther Gordillo"/>
+          <attvalue for="0" value="6/15/2008"/>
+          <attvalue for="1" value="Ingresó al PAN; &quot;priista prototípico&quot;"/>
+          <attvalue for="0" value="9/6/2011"/>
+          <attvalue for="1" value="Ex-director del ISSTE"/>
+        </attvalues>
+      </node>
+      <node id="18" label="Miguel Angel Yunes">
+        <attvalues>
+          <attvalue for="0" value="9/10/2003"/>
+          <attvalue for="1" value="Secretario de Elba Esther Gordillo"/>
+          <attvalue for="0" value="7/21/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+          <attvalue for="0" value="8/14/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+          <attvalue for="0" value="9/17/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="21" label="Roberto Madrazo">
+        <attvalues>
+          <attvalue for="0" value="5/12/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+          <attvalue for="0" value="8/14/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="23" label="Tomas Ruiz ">
+        <attvalues>
+          <attvalue for="0" value="6/2/2004"/>
+          <attvalue for="1" value="Diputado PRI"/>
+          <attvalue for="0" value="10/19/2004"/>
+          <attvalue for="1" value="Presidente PAN"/>
+        </attvalues>
+      </node>
+      <node id="26" label="Joel Ayala ">
+        <attvalues>
+          <attvalue for="0" value="7/11/2004"/>
+          <attvalue for="1" value="Dirigise FSTSE"/>
+          <attvalue for="0" value="11/27/2011"/>
+          <attvalue for="1" value="Precandidato presidencial del PRI"/>
+        </attvalues>
+      </node>
+      <node id="29" label="Ulises Ruiz">
+        <attvalues>
+          <attvalue for="0" value="8/5/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="30" label="Jose Murat">
+        <attvalues>
+          <attvalue for="0" value="8/14/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="34" label="Presidente Fox">
+        <attvalues>
+          <attvalue for="0" value="9/26/2004"/>
+          <attvalue for="1" value="Presidente PAN"/>
+        </attvalues>
+      </node>
+      <node id="35" label="Diodoro Carrasco">
+        <attvalues>
+          <attvalue for="0" value="10/11/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="36" label="Gloria Trevi">
+        <attvalues>
+          <attvalue for="0" value="10/11/2004"/>
+          <attvalue for="1" value="Cantante/Artista"/>
+        </attvalues>
+      </node>
+      <node id="37" label="Enrique Pena Nieto">
+        <attvalues>
+          <attvalue for="0" value="10/17/2004"/>
+          <attvalue for="1" value="Candidato a la gobernatura del Edo. de Mexico"/>
+        </attvalues>
+      </node>
+      <node id="39" label=" Jorge G. Castaneda">
+        <attvalues>
+          <attvalue for="0" value="10/24/2004"/>
+          <attvalue for="1" value="Interlocutor"/>
+        </attvalues>
+      </node>
+      <node id="40" label="Antonio Manriquez Guluarte">
+        <attvalues>
+          <attvalue for="0" value="10/29/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="41" label="Beatriz Paredes">
+        <attvalues>
+          <attvalue for="0" value="11/3/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="42" label="Luis Armando Reynoso Femat">
+        <attvalues>
+          <attvalue for="0" value="11/20/2004"/>
+          <attvalue for="1" value="Gobernador de Aguascalientes"/>
+        </attvalues>
+      </node>
+      <node id="43" label="Oscar Gonzalez">
+        <attvalues>
+          <attvalue for="0" value="11/20/2004"/>
+          <attvalue for="1" value="Ex-Candidato a la gobernatura de Aguascalientes"/>
+          <attvalue for="0" value="12/5/2005"/>
+          <attvalue for="1" value="Candidato presidencial del PRI"/>
+        </attvalues>
+      </node>
+      <node id="44" label="Francisco Rojas ">
+        <attvalues>
+          <attvalue for="0" value="11/21/2004"/>
+          <attvalue for="1" value="Politico PRI"/>
+        </attvalues>
+      </node>
+      <node id="46" label=" Miguel Angel Jimenez ">
+        <attvalues>
+          <attvalue for="0" value="1/1/2005"/>
+          <attvalue for="1" value="Fundador de la Nueva Alianza"/>
+        </attvalues>
+      </node>
+      <node id="47" label="Carlos Madrazo">
+        <attvalues>
+          <attvalue for="0" value="2/27/2005"/>
+          <attvalue for="1" value="Nombrado presidente del PRI (en &lt;--- esa fecha)"/>
+        </attvalues>
+      </node>
+      <node id="48" label="Rafael Ochoa Guzman">
+        <attvalues>
+          <attvalue for="0" value="10/19/2005"/>
+          <attvalue for="1" value="Secretario General del SNTE"/>
+        </attvalues>
+      </node>
+      <node id="49" label="Carlos Jonguitud Barrios">
+        <attvalues>
+          <attvalue for="0" value="10/19/2005"/>
+          <attvalue for="1" value="Fundador de Vanguardia Revolucionaria del Magisterio"/>
+        </attvalues>
+      </node>
+      <node id="50" label=" Emilio Chuayffet">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Lider de los diputados priistas"/>
+        </attvalues>
+      </node>
+      <node id="51" label="Diego Armando Maradona">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Ex-jugador de futbol"/>
+          <attvalue for="0" value="5/15/2008"/>
+          <attvalue for="1" value="Presidente de la Repúbica"/>
+          <attvalue for="0" value="8/8/2011"/>
+          <attvalue for="1" value="Presindente de México"/>
+        </attvalues>
+      </node>
+      <node id="53" label="Everardo Moreno">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Precandidato presidencial del PRI"/>
+        </attvalues>
+      </node>
+      <node id="54" label="Natividad Gonzalez Paras">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Gobernador de Nuevo Leon"/>
+        </attvalues>
+      </node>
+      <node id="55" label="Nestor Kirchner">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Presidente de Argentina"/>
+        </attvalues>
+      </node>
+      <node id="57" label="Victor Gonzalez Torres">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+          <attvalue for="1" value="Dr. Simi"/>
+        </attvalues>
+      </node>
+      <node id="58" label="Roberto Madrazo Pintado">
+        <attvalues>
+          <attvalue for="0" value="11/13/2005"/>
+          <attvalue for="1" value="Candidato Presidencial del PRI"/>
+        </attvalues>
+      </node>
+      <node id="59" label="Alfredo Rivera Flores">
+        <attvalues>
+          <attvalue for="0" value="11/16/2005"/>
+          <attvalue for="1" value="Autor &quot;La Sosa Nostra&quot;"/>
+        </attvalues>
+      </node>
+      <node id="60" label="Gerardo Sosa Castelan">
+        <attvalues>
+          <attvalue for="0" value="11/16/2005"/>
+          <attvalue for="1" value="Presidente del PRI en Hidalgo"/>
+          <attvalue for="0" value="8/8/2011"/>
+          <attvalue for="1" value="Secretaria, Candidata a presidencia"/>
+        </attvalues>
+      </node>
+      <node id="61" label="Miguel Angel Granados Chapa">
+        <attvalues>
+          <attvalue for="0" value="11/16/2005"/>
+          <attvalue for="1" value="Autor prologo &quot;La Sosa Nostra&quot;"/>
+          <attvalue for="0" value="4/26/2009"/>
+          <attvalue for="1" value="Subsecretario de Educación Básica"/>
+        </attvalues>
+      </node>
+      <node id="62" label="Arturo Montiel">
+        <attvalues>
+          <attvalue for="0" value="11/20/2005"/>
+          <attvalue for="1" value="Gobernador del Estado de Mexico"/>
+        </attvalues>
+      </node>
+      <node id="63" label="Enrique Jackson">
+        <attvalues>
+          <attvalue for="0" value="11/20/2005"/>
+          <attvalue for="1" value="Presidente del Senado"/>
+        </attvalues>
+      </node>
+      <node id="64" label="Enrique Martinez">
+        <attvalues>
+          <attvalue for="0" value="11/20/2005"/>
+          <attvalue for="1" value="Gobernador de Coahuila"/>
+        </attvalues>
+      </node>
+      <node id="66" label="Tomas Ruiz">
+        <attvalues>
+          <attvalue for="0" value="11/20/2005"/>
+          <attvalue for="1" value="Diputado Veracruzano"/>
+        </attvalues>
+      </node>
+      <node id="67" label="Felipe Calderon">
+        <attvalues>
+          <attvalue for="0" value="11/25/2005"/>
+          <attvalue for="1" value="Candidato presidencial del PAN"/>
+        </attvalues>
+      </node>
+      <node id="68" label="Andres Manuel Lopez Obrador">
+        <attvalues>
+          <attvalue for="0" value="11/30/2005"/>
+          <attvalue for="1" value="Candidato presidencial"/>
+        </attvalues>
+      </node>
+      <node id="70" label="Carlos Armando Biebrich">
+        <attvalues>
+          <attvalue for="0" value="12/5/2005"/>
+          <attvalue for="1" value="Secretario de Accion Electoral"/>
+          <attvalue for="0" value="8/31/2013"/>
+          <attvalue for="1" value="Presidente del Senado de México"/>
+        </attvalues>
+      </node>
+      <node id="72" label="Gabino Cue Monteagudo">
+        <attvalues>
+          <attvalue for="0" value="12/5/2005"/>
+          <attvalue for="1" value="Candidato a la gobernatura de Oaxaca"/>
+        </attvalues>
+      </node>
+      <node id="73" label="Mariano Palacios Alcocer">
+        <attvalues>
+          <attvalue for="0" value="12/5/2005"/>
+          <attvalue for="1" value="Presidente el Comite Nacional priista"/>
+        </attvalues>
+      </node>
+      <node id="75" label="Ulises Ruiz Ortiz">
+        <attvalues>
+          <attvalue for="0" value="12/5/2005"/>
+          <attvalue for="1" value="Gobernador de Oaxaca"/>
+        </attvalues>
+      </node>
+      <node id="76" label="Juan Molinar Horcasitas">
+        <attvalues>
+          <attvalue for="0" value="1/1/2006"/>
+          <attvalue for="1" value="Diputado federal del PAN"/>
+        </attvalues>
+      </node>
+      <node id="81" label="Nicolas Sarkozy">
+        <attvalues>
+          <attvalue for="0" value="5/16/2007"/>
+          <attvalue for="1" value="Presidente de Francia"/>
+        </attvalues>
+      </node>
+      <node id="82" label="German Martinez">
+        <attvalues>
+          <attvalue for="0" value="12/8/2007"/>
+          <attvalue for="1" value="Presidente del PAN"/>
+        </attvalues>
+      </node>
+      <node id="83" label="Josefina Vazquez Moya">
+        <attvalues>
+          <attvalue for="0" value="5/15/2008"/>
+          <attvalue for="1" value="Secretaria de Educacion"/>
+        </attvalues>
+      </node>
+      <node id="85" label="Fernando Gonzalez">
+        <attvalues>
+          <attvalue for="0" value="5/15/2008"/>
+          <attvalue for="1" value="Subsecretario de Educacion Basica"/>
+        </attvalues>
+      </node>
+      <node id="87" label="Fermin Trujillo Fuentes">
+        <attvalues>
+          <attvalue for="0" value="12/8/2008"/>
+          <attvalue for="1" value="Senador de Sonora"/>
+        </attvalues>
+      </node>
+      <node id="88" label="Benjamin Gonzalez Roar">
+        <attvalues>
+          <attvalue for="0" value="1/1/2009"/>
+          <attvalue for="1" value="Director de la Loteria Nacional"/>
+        </attvalues>
+      </node>
+      <node id="89" label="Aureliano Pena Lomeli">
+        <attvalues>
+          <attvalue for="0" value="1/1/2009"/>
+          <attvalue for="1" value="Rector de la UNAM"/>
+        </attvalues>
+      </node>
+      <node id="90" label="Wanda Sigrid Arzt Colunga">
+        <attvalues>
+          <attvalue for="0" value="1/10/2009"/>
+          <attvalue for="1" value="Comisionada del IFAI"/>
+        </attvalues>
+      </node>
+      <node id="91" label="Maria Elena Perez-Jaen Zermeno">
+        <attvalues>
+          <attvalue for="0" value="9/24/2009"/>
+          <attvalue for="1" value="Integrante del IFAI"/>
+        </attvalues>
+      </node>
+      <node id="94" label="Aguirre Rivero">
+        <attvalues>
+          <attvalue for="0" value="1/4/2011"/>
+          <attvalue for="1" value="Gobernador de Guerrero"/>
+        </attvalues>
+      </node>
+      <node id="95" label="Carlos Slim">
+        <attvalues>
+          <attvalue for="0" value="5/29/2011"/>
+          <attvalue for="1" value="empresario mexicano"/>
+        </attvalues>
+      </node>
+      <node id="96" label="Gil Zuarth">
+        <attvalues>
+          <attvalue for="0" value="5/29/2011"/>
+          <attvalue for="1" value="Secretario paticular de Felipe Calderon"/>
+        </attvalues>
+      </node>
+      <node id="97" label="Ernesto Cordero">
+        <attvalues>
+          <attvalue for="0" value="6/17/2011"/>
+          <attvalue for="1" value="pre-candidato presidencial del PAN"/>
+        </attvalues>
+      </node>
+      <node id="98" label="Alonso Lujambio">
+        <attvalues>
+          <attvalue for="0" value="7/3/2011"/>
+          <attvalue for="1" value="Secretario"/>
+        </attvalues>
+      </node>
+      <node id="99" label="Fernando Larrazabal">
+        <attvalues>
+          <attvalue for="0" value="7/8/2011"/>
+          <attvalue for="1" value="Alcalde de la ciudad de Monterrey"/>
+        </attvalues>
+      </node>
+      <node id="100" label="Zeferino Salgado">
+        <attvalues>
+          <attvalue for="0" value="7/8/2011"/>
+          <attvalue for="1" value="delegado de la Secretaria de Comunicaciones y Transportes"/>
+        </attvalues>
+      </node>
+      <node id="101" label="Jesus Villalobos">
+        <attvalues>
+          <attvalue for="0" value="7/12/2011"/>
+          <attvalue for="1" value="Director general del ISSSTE"/>
+        </attvalues>
+      </node>
+      <node id="106" label="Ernesto Gandara">
+        <attvalues>
+          <attvalue for="0" value="9/1/2012"/>
+          <attvalue for="1" value="Senador "/>
+        </attvalues>
+      </node>
+      <node id="107" label="Luis Chavez Orozco">
+        <attvalues>
+          <attvalue for="0" value="antes de 5/13/1974"/>
+          <attvalue for="1" value="historiador que habia sido subsecretario de Eduaccion"/>
+        </attvalues>
+      </node>
+      <node id="108" label="Miguel Angel Jimenez Godinez">
+        <attvalues>
+          <attvalue for="0" value="1/1/2005"/>
+          <attvalue for="1" value="Presidente de la Nueva Alianza"/>
+        </attvalues>
+      </node>
+      <node id="109" label=" Eduardo Medina Mora">
+        <attvalues>
+          <attvalue for="0" value="1/1/2009"/>
+          <attvalue for="1" value="Embajador de Mexico en Reino Unido"/>
+        </attvalues>
+      </node>
+      <node id="110" label="Carlos Mourino">
+        <attvalues>
+          <attvalue for="0" value="4/20/2009"/>
+          <attvalue for="1" value="Empresario de Yucatan"/>
+        </attvalues>
+      </node>
+      <node id="111" label="Humberto Moreira">
+        <attvalues>
+          <attvalue for="0" value="12/1/2005"/>
+          <attvalue for="1" value="Gobernador de Coahuila"/>
+        </attvalues>
+      </node>
+      <node id="113" label="Carlos Moreira">
+        <attvalues>
+          <attvalue for="0" value="10/17/2008"/>
+          <attvalue for="1" value="Lider del sinicato magisterial seccion 38"/>
+        </attvalues>
+      </node>
+      <node id="114" label="Ruben Moreira">
+        <attvalues>
+          <attvalue for="0" value="10/17/2008"/>
+          <attvalue for="1" value="Presidente del PRI estatal Coahuila"/>
+        </attvalues>
+      </node>
+      <node id="115" label="Genaro Garcia Luna">
+        <attvalues>
+          <attvalue for="0" value="12/1/2006"/>
+          <attvalue for="1" value="Secretario de Seguridad Publia"/>
+        </attvalues>
+      </node>
+      <node id="116" label="Luis Ignacio Sanchez">
+        <attvalues>
+          <attvalue for="0" value="9/25/2008"/>
+          <attvalue for="1" value="Titulor de la Administracion de los Servicios Educativos para el Distrito Federal"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="94" target="37" weight="5" label="Aguirre era Senador y su amistad con Enrique Pena Nieto lo hizo abrigar la certidumbre de ser el candidato priista">
+        <attvalues>
+          <attvalue for="0" value="10/10/2010"/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="16" target="97" weight="2" label="La presidenta del sindicato magisterial podria proveer a Cordero de suficiente informacion sobre Yunes.">
+        <attvalues>
+          <attvalue for="0" value="6/17/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="2" source="97" target="99" weight="3" label="Alli fue recibido, el 7 de agosto, por el Alcalde de la ciudad, Fernando Larrazabal,">
+        <attvalues>
+          <attvalue for="0" value="8/7/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="3" source="97" target="100" weight="3" label="Alli fue recibido, el 7 de agosto, por el Alcalde de la ciudad, Fernando Larrazabal, y el delegado de la Secretaria de Comunicaciones y Transportes, Zeferino Salgado.">
+        <attvalues>
+          <attvalue for="0" value="8/7/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="4" source="16" target="18" weight="-2" label="Yunes, una y otra vez senalado con evidencias documentales de conductas publicas ilicitas, se lio en una reyerta con Elba Esther Gordillo">
+        <attvalues>
+          <attvalue for="0" value="9/6/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="5" source="16" target="10" weight="5" label="... pero se revitalizo al acercarse en 2001 a Elba Esther Gordillo, que lo dejo dirigir el sector popular ...">
+        <attvalues>
+          <attvalue for="0" value="1/20/2001"/>
+        </attvalues>
+      </edge>
+      <edge id="6" source="16" target="10" weight="5" label="... y luego lo convirtio en su principal colaborador cuando ambos fueron elegidos Diputados en 2003.">
+        <attvalues>
+          <attvalue for="0" value="1/10/2003"/>
+        </attvalues>
+      </edge>
+      <edge id="7" source="16" target="10" weight="5" label="Ademas de los restos de esa tendencia que no se han subordinado al antiguo lider nacional y ahora candidato presidencial, Campa cuenta con el relevante apoyo de Elba Esther Gordillo.">
+        <attvalues>
+          <attvalue for="0" value="1/10/2006"/>
+        </attvalues>
+      </edge>
+      <edge id="8" source="16" target="67" weight="-1" label="Es temprano para determinar en el conflicto, que no es risible, entre el Presidente Calderon y su aliada Elba Esther Gordillo, quien reira mejor porque lo hara al ultimo">
+        <attvalues>
+          <attvalue for="0" value="2011"/>
+        </attvalues>
+      </edge>
+      <edge id="9" source="16" target="73" weight="-5" label="En su contraataque, demando que el presidente del Comite Nacional priista y su secretario de Accion Electoral, Mariano Palacios Alcocer y Carlos Armando Biebrich sean expulsados del partido.">
+        <attvalues>
+          <attvalue for="0" value="12/5/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="10" source="16" target="70" weight="-5" label="En su contraataque, demando que el presidente del Comite Nacional priista y su secretario de Accion Electoral, Mariano Palacios Alcocer y Carlos Armando Biebrich sean expulsados del partido.">
+        <attvalues>
+          <attvalue for="0" value="12/5/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="11" source="16" target="4" weight="-3" label=" &quot;Carlos Salinas penso que no era conveniente que ella (Gordillo) dirigiera el partido&quot;.">
+        <attvalues>
+          <attvalue for="0" value="12/5/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="12" source="16" target="58" weight="-3" label="... es considerada por Gordillo &quot;instruccion y mandato que (Madrazo) recibio del senor Carlos Salinas de Gortari, quien ha demostrado ser el verdadero dirigente actual de nuestro partido&quot;.">
+        <attvalues>
+          <attvalue for="0" value="12/5/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="13" source="16" target="75" weight="-1" label="No incluye entre los beneficiarios de esa asistencia al Gobernador de Oaxaca...">
+        <attvalues>
+          <attvalue for="0" value="12/5/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="14" source="16" target="72" weight="1" label="... que ha denunciado el apoyo de Gordillo a Gabino Cue, antagonista de Ulises Ruiz en la contienda del ano pasado.">
+        <attvalues>
+          <attvalue for="0" value="12/5/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="15" source="17" target="68" weight="2" label="... pues resolvio unirse al frente llamado de izquierda y apoyar a Andres Manuel Lopez Obrador.">
+        <attvalues>
+          <attvalue for="0" value="11/30/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="16" source="16" target="67" weight="0" label="Felipe Calderon denuncio la intervencion telefonica evidenciada al ser conocida su conversacion con Elba Esther Gordillo">
+        <attvalues>
+          <attvalue for="0" value="10/3/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="17" source="16" target="17" weight="0" label="Una conversacion suya (Gutman) con Gordillo fue captada por oidos indiscretos que practicaban una escucha sistematica de las llamadas de la dirigente magisterial...">
+        <attvalues>
+          <attvalue for="0" value="11/25/2003"/>
+        </attvalues>
+      </edge>
+      <edge id="18" source="16" target="18" weight="-2" label="Miguel Angel Yunes y Jesus Villalobos, a quienes Elba Esther Gordillo tiene en la mira por presuntos malos manejos en esa institucion, ">
+        <attvalues>
+          <attvalue for="0" value="7/12/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="19" source="16" target="101" weight="-2" label="Miguel Angel Yunes y Jesus Villalobos, a quienes Elba Esther Gordillo tiene en la mira por presuntos malos manejos en esa institucion, ">
+        <attvalues>
+          <attvalue for="0" value="7/12/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="20" source="16" target="18" weight="-3" label="Elba Esther Gordillo pidio a Miguel Angel Yunes, en enero o febrero de 2007 -el ha mencionado las dos fechas- en un hotel de San Diego, al que acudio devoto, una cuota de 20 millones de pesos cada mes.">
+        <attvalues>
+          <attvalue for="0" value="1/1/2007"/>
+        </attvalues>
+      </edge>
+      <edge id="21" source="16" target="67" weight="5" label="la dirigente magisterial aparecia como plena aliada de Calderon">
+        <attvalues>
+          <attvalue for="0" value="3/1/2007"/>
+        </attvalues>
+      </edge>
+      <edge id="22" source="16" target="13" weight="3" label="Sin mencionar a Fox, sino solo aludiendolo, recordo que su antecesor y Gordillo habian convenido prebendas que el no hizo mas que reconocer y respetar.">
+        <attvalues>
+          <attvalue for="0" value="11/30/2006"/>
+        </attvalues>
+      </edge>
+      <edge id="23" source="16" target="58" weight="-5" label="La irrupcion de Gordillo en la entrevista radiofonica con Madrazo, la confirmacion de su decision de hacer cuanto este a su alcance para que no triunfe su candidatura presidencial.">
+        <attvalues>
+          <attvalue for="0" value="11/15/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="24" source="16" target="42" weight="3" label="Se sabia igualmente que un presunto arreglo suyo con el Gobernador panista de Aguascalientes...">
+        <attvalues>
+          <attvalue for="0" value="11/20/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="25" source="16" target="43" weight="-3" label="...  provoco el ano pasado la renuncia de Oscar Gonzalez a su candidatura en esa entidad.">
+        <attvalues>
+          <attvalue for="0" value="11/20/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="26" source="16" target="67" weight="3" label="horas despues de que el segundo turno de votacion refrendara la posicion ganadora de Felipe Calderon en la contienda interna del PAN, la dirigente magisterial lo llamo no solo para felicitarlo.">
+        <attvalues>
+          <attvalue for="0" value="10/3/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="27" source="16" target="66" weight="2" label="En la Camara de Diputados esa alianza dio lugar en 2003 a la fraccion elbiazul...Figuras relevantes en esa fraccion fueron los diputados veracruzanos Tomas Ruiz y Miguel Angel Yunes.">
+        <attvalues>
+          <attvalue for="0" value="11/20/2003"/>
+        </attvalues>
+      </edge>
+      <edge id="28" source="16" target="18" weight="2" label="En la Camara de Diputados esa alianza dio lugar en 2003 a la fraccion elbiazul...Figuras relevantes en esa fraccion fueron los diputados veracruzanos Tomas Ruiz y Miguel Angel Yunes.">
+        <attvalues>
+          <attvalue for="0" value="11/20/2003"/>
+        </attvalues>
+      </edge>
+      <edge id="29" source="67" target="18" weight="2" label="A Yunes mismo, Calderon agradecio su intervencion, no se sabe de que naturaleza...">
+        <attvalues>
+          <attvalue for="0" value="10/3/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="30" source="16" target="4" weight="-5" label="Fue Salinas quien decidio que Gordillo no ascendiera de la secretaria general a la presidencia del partido.">
+        <attvalues>
+          <attvalue for="0" value="11/20/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="31" source="58" target="62" weight="-2" label="Madrazo progreso esta semana en someter a sus adversarios.">
+        <attvalues>
+          <attvalue for="0" value="11/20/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="32" source="58" target="63" weight="-2" label="Madrazo progreso esta semana en someter a sus adversarios.">
+        <attvalues>
+          <attvalue for="0" value="11/20/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="33" source="58" target="64" weight="-2" label="Madrazo progreso esta semana en someter a sus adversarios.">
+        <attvalues>
+          <attvalue for="0" value="11/20/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="34" source="16" target="18" weight="5" label="Tras la expulsion de Gordillo, Yunes renuncio al PRI y la profesora, que tambien tenia un pacto politico con Fox, le consiguio acomodos en el sistema de seguridad publica">
+        <attvalues>
+          <attvalue for="0" value="7/13/2006"/>
+        </attvalues>
+      </edge>
+      <edge id="35" source="16" target="101" weight="-5" label="ahora esta en manos de Jesus Villalobos, de quien Gordillo es notoriamente desafecta y por cuya remocion esta pugnando">
+        <attvalues>
+          <attvalue for="0" value="7/3/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="36" source="16" target="98" weight="-3" label="De alli su desden por el Secretario Alonso Lujambio, a quien descalifico como precandidato presidencial al afirmar que &quot;lo ideal seria que trabajara de tiempo completo&quot;.">
+        <attvalues>
+          <attvalue for="0" value="7/3/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="37" source="16" target="67" weight="-3" label="Gordillo puso en ridiculo a su aliado politico.">
+        <attvalues>
+          <attvalue for="0" value="7/3/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="38" source="16" target="58" weight="-3" label="Explico la profesora que en el 2006 no podia aliarse con Roberto Madrazo,">
+        <attvalues>
+          <attvalue for="0" value="7/3/2006"/>
+        </attvalues>
+      </edge>
+      <edge id="39" source="16" target="8" weight="2" label="cuando el PAN y el PRI escogieron un consejo electoral que respondiera a las exigencias ni siquiera de esos partidos sino a las de la fraccion encabezada por Elba Esther Gordillo, y no a las de los ciudadanos.">
+        <attvalues>
+          <attvalue for="0" value="1/1/1996"/>
+        </attvalues>
+      </edge>
+      <edge id="40" source="8" target="1" weight="1" label="Manuel Bartlett fue sustituido a la mitad del sexenio, el 6 de enero de 1992, por Ernesto Zedillo Ponce de Leon">
+        <attvalues>
+          <attvalue for="0" value="6/1/1992"/>
+        </attvalues>
+      </edge>
+      <edge id="41" source="1" target="4" weight="4" label=" durante la administracion de Carlos Salinas de Gortari, fue Secretario de Educacion Publica.">
+        <attvalues>
+          <attvalue for="0" value="1/12/1988"/>
+        </attvalues>
+      </edge>
+      <edge id="42" source="16" target="68" weight="-3" label="parte de proyecto de Andres Manuel Lopez Obrador, mientras que el Panal lo es de Elba Esther Gordillo">
+        <attvalues>
+          <attvalue for="0" value="1/1/2010"/>
+        </attvalues>
+      </edge>
+      <edge id="43" source="68" target="3" weight="3" label="Hace una decada era notoria su cercania con Andres Manuel Lopez Obrador. T">
+        <attvalues>
+          <attvalue for="0" value="8/26/2001"/>
+        </attvalues>
+      </edge>
+      <edge id="44" source="16" target="7" weight="5" label="Elba Esther Gordillo estuvo cerca de hacer presidente del IFE en octubre de 2003">
+        <attvalues>
+          <attvalue for="0" value="1/10/2003"/>
+        </attvalues>
+      </edge>
+      <edge id="45" source="67" target="97" weight="5" label="el Presidente Calderon mostro a Ernesto Cordero como su preferido en la lid interna del PAN por la candidatura presidencial. ">
+        <attvalues>
+          <attvalue for="0" value="5/13/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="46" source="67" target="95" weight="-2" label="vinculo firmisimo con Televisa, que lleva consigo un resuelto antagonismo con Carlos Slim">
+        <attvalues>
+          <attvalue for="0" value="5/29/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="47" source="16" target="67" weight="3" label=" El unico vinculo que Calderon ha mantenido sin mengua, con Elba Esther Gordillo, ha significado no solo la entrega de insulas de la Administracion ">
+        <attvalues>
+          <attvalue for="0" value="1/12/2009"/>
+        </attvalues>
+      </edge>
+      <edge id="48" source="67" target="96" weight="5" label="hizo a Gil Zuarth su secretario particular, cargo en el que lo mantiene.">
+        <attvalues>
+          <attvalue for="0" value="5/29/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="49" source="16" target="91" weight="4" label="pues Perez Jaen pertenece al grupo de la lideresa magisterial que ahora tiene un nuevo puesto en el sector gubernamental ">
+        <attvalues>
+          <attvalue for="0" value="9/24/2009"/>
+        </attvalues>
+      </edge>
+      <edge id="50" source="91" target="68" weight="-3" label=" Lopez Obrador objeto los nombramientos de Leoncio Lara, Odette Rivas y Maria Elena Perez Jaen">
+        <attvalues>
+          <attvalue for="0" value="8/18/2003"/>
+        </attvalues>
+      </edge>
+      <edge id="51" source="91" target="90" weight="3" label="Tras el nombramiento de Wanda Sigrid Arzt Colunga y Maria Elena Perez-Jaen Zermeno como comisionadas del IFAI">
+        <attvalues>
+          <attvalue for="0" value="1/10/2009"/>
+        </attvalues>
+      </edge>
+      <edge id="52" source="16" target="9" weight="2" label="Gordillo y Romero Deschamps son aliados del Presidente.">
+        <attvalues>
+          <attvalue for="0" value="7/10/2009"/>
+        </attvalues>
+      </edge>
+      <edge id="53" source="16" target="67" weight="4" label="Elba Esther Gordillo, los de Nueva Alianza, merced al acuerdo entre su jefa y el jefe de los panistas, que no es Josefina Vazquez Mota ni Cesar Nava sino el propio Felipe Calderon">
+        <attvalues>
+          <attvalue for="0" value="9/13/2009"/>
+        </attvalues>
+      </edge>
+      <edge id="54" source="16" target="58" weight="-4" label="en 2002. Al ano siguiente fue diputado y, con fortuna labrada por la reyerta entre Roberto Madrazo y Elba Esther Gordillo">
+        <attvalues>
+          <attvalue for="0" value="1/1/2003"/>
+        </attvalues>
+      </edge>
+      <edge id="55" source="58" target="68" weight="-3" label="ya cuando enfrento a Andres Manuel Lopez Obrador y Roberto Madrazo en la pugna constitucional de 2006">
+        <attvalues>
+          <attvalue for="0" value="1/1/2006"/>
+        </attvalues>
+      </edge>
+      <edge id="56" source="58" target="6" weight="3" label="Quiza la primera Procuradora estatal fue Patricia Pedrero Iduarte, nombrada por Roberto Madrazo ">
+        <attvalues>
+          <attvalue for="0" value="1/1/1994"/>
+        </attvalues>
+      </edge>
+      <edge id="57" source="16" target="15" weight="1" label="en que fue elegido diputado y luego sustituyo en la coordinacion de la fraccion priista a Elba Esther Gordillo">
+        <attvalues>
+          <attvalue for="0" value="1/2/2003"/>
+        </attvalues>
+      </edge>
+      <edge id="58" source="15" target="37" weight="2" label="Pena Nieto firmo un articulo de prensa que Emilio Chuayffet convirtio en iniciativa para volver atras el reloj de la historia">
+        <attvalues>
+          <attvalue for="0" value="4/28/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="59" source="16" target="58" weight="-3" label="Despues del encontronazo entre Elba Esther Gordillo y Roberto Madrazo se inicio el tramo final de la carrera de la dirigente magisterial dentro del PRI.">
+        <attvalues>
+          <attvalue for="0" value="11/17/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="60" source="60" target="59" weight="-2" label="Sosa inicio una demanda civil contra el autor del libro La Sosa nostra">
+        <attvalues>
+          <attvalue for="0" value="11/16/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="61" source="60" target="61" weight="-2" label="No solo fue demandado el autor de la obra, Alfredo Rivera Flores, sino tambien el prologuista (que es el autor de estas lineas)">
+        <attvalues>
+          <attvalue for="0" value="11/16/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="62" source="16" target="58" weight="-5" label="Roberto Madrazo insto a Elba Esther Gordillo a presentarse como candidata presidencial de un partido diferente al PRI. Dijo que solo en esa condicion debatiria con ella...">
+        <attvalues>
+          <attvalue for="0" value="11/16/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="63" source="16" target="11" weight="0" label="Como politico y funcionario priista, Ortega Cuevas actuo a la vera de Manuel Camacho y Elba Esther Gordillo, desde que ella fue delegada ">
+        <attvalues>
+          <attvalue for="0" value="1/1/2000"/>
+        </attvalues>
+      </edge>
+      <edge id="64" source="16" target="14" weight="0" label="Aunque usted no lo crea, Elba Esther Gordillo sigue siendo secretaria general del PRI, desde donde estatutariamente reemplazaria a Madrazo,">
+        <attvalues>
+          <attvalue for="0" value="12/3/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="65" source="14" target="41" weight="-5" label="A la postre, Madrazo quedaria enfrentado a Beatriz Paredes, de cuyo equipo brotaron serias descalificaciones al proceso electoral de febrero de 2002.">
+        <attvalues>
+          <attvalue for="0" value="2/1/2002"/>
+        </attvalues>
+      </edge>
+      <edge id="66" source="16" target="44" weight="-3" label="Roberto Madrazo, quien sustituyo a Francisco Rojas en la Comision de presupuesto a la caida de Elba Esther Gordillo ">
+        <attvalues>
+          <attvalue for="0" value="11/21/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="67" source="16" target="40" weight="-4" label="Antonio Manriquez Guluarte, que hace seis anos fue el candidato priista y contaba de nuevo con la mayor posibilidad de ser postulado, pertenece, sin embargo, al entorno de la profesora Elba Esther Gordillo. ">
+        <attvalues>
+          <attvalue for="0" value="10/29/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="68" source="16" target="39" weight="-5" label=" Elba Esther Gordillo. Uno de sus interlocutores de ese modo espiado, Jorge G. Castaneda, presento denuncia formal del caso y la averiguacion previa, si se realizo, no arrojo resultado publico alguno.">
+        <attvalues>
+          <attvalue for="0" value="10/24/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="69" source="16" target="34" weight="2" label="Todo el liderazgo priista (excepcion hecha de la secretaria general, Elba Esther Gordillo) reprocho al Presidente Fox la ligereza de sus palabras">
+        <attvalues>
+          <attvalue for="0" value="10/19/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="70" source="16" target="35" weight="2" label="a expulsion del PRI de Elba Esther Gordillo y Diodoro Carrasco, el juicio a Gloria Trevi, la investigacion sobre el intento de soborno al Nino Verde">
+        <attvalues>
+          <attvalue for="0" value="10/11/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="71" source="16" target="36" weight="0" label="a expulsion del PRI de Elba Esther Gordillo y Diodoro Carrasco, el juicio a Gloria Trevi, la investigacion sobre el intento de soborno al Nino Verde">
+        <attvalues>
+          <attvalue for="0" value="10/11/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="72" source="16" target="34" weight="0" label=" Fox se habia reunido previamente con representantes del PRI (ausente la numero dos de su comite nacional, Elba Esther Gordillo, mas cercana al Presidente federal que al de su partido) y con los del PRD.">
+        <attvalues>
+          <attvalue for="0" value="9/26/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="73" source="16" target="21" weight="-4" label="a direccion priista en pleno rehuso participar en la ceremonia realizada el martes en Palacio Nacional. Se creeria que Roberto Madrazo y Elba Esther Gordillo no acudieron para no tener que saludarse. ">
+        <attvalues>
+          <attvalue for="0" value="9/17/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="74" source="16" target="21" weight="-3" label="El eje Roberto Madrazo-Jose Murat-Ulises Ruiz siente consolidada la fechoria electoral en Oaxaca y, ahora, se empenan en imponerle a Elba Esther Gordillo el calendario de su propio sacrificio, antes de que esta intente ponerlos contra la pared.">
+        <attvalues>
+          <attvalue for="0" value="8/14/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="75" source="16" target="30" weight="-3" label="El eje Roberto Madrazo-Jose Murat-Ulises Ruiz siente consolidada la fechoria electoral en Oaxaca y, ahora, se empenan en imponerle a Elba Esther Gordillo el calendario de su propio sacrificio, antes de que esta intente ponerlos contra la pared.">
+        <attvalues>
+          <attvalue for="0" value="8/14/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="76" source="16" target="29" weight="-3" label="El eje Roberto Madrazo-Jose Murat-Ulises Ruiz siente consolidada la fechoria electoral en Oaxaca y, ahora, se empenan en imponerle a Elba Esther Gordillo el calendario de su propio sacrificio, antes de que esta intente ponerlos contra la pared.">
+        <attvalues>
+          <attvalue for="0" value="8/14/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="77" source="16" target="29" weight="-4" label="La misma expulsion se solicitara para Elba Esther Gordillo, que a decir de Ulises Ruiz pago a maestros oaxaquenos residentes en el estado de Mexico para hacer proselitismo en favor de Cue.">
+        <attvalues>
+          <attvalue for="0" value="8/5/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="78" source="16" target="21" weight="-5" label="ex Gobernadora de Tlaxcala recibio mandato de Madrazo para manejar la sucesion en esa entidad, habida cuenta de su influencia en el PRI y el PRD locales, y cuando fue nombrada presidenta de la Fundacion Colosio, que el lunes presento su documento Por la recuperacion del presente y conquista del futuro. El acto respectivo, celebrado en el Museo del Papalote, fue encabezado por ambos dirigentes, a los que une su comun antagonismo con Elba Esther Gordillo.">
+        <attvalues>
+          <attvalue for="0" value="7/21/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="79" source="16" target="15" weight="0" label="Ambos se acogieron a la sombra de Elba Esther Gordillo durante el breve lapso en que la secretaria general del PRI encabezo la bancada priista en San Lazaro. Como el Lucifer de Milton, Yunes rehuso acatar, el a Emilio Chuayffet y abandono la fraccion de su partido">
+        <attvalues>
+          <attvalue for="0" value="7/18/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="80" source="16" target="26" weight="0" label="Participan tambien los dos lideres antagonicos de la burocracia, Joel Ayala que dirige la FSTSE y Elba Esther Gordillo, que acudio como presidenta del SNTE para que no se crea que se le reconoce en su disidencia.">
+        <attvalues>
+          <attvalue for="0" value="7/11/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="81" source="16" target="23" weight="5" label="los Diputados Tomas Ruiz y Miguel Angel Yunes, se inconformaron acremente con la decision. Precandidatos ilusos desde siempre, ambos perdieron la escasa posibilidad de ser candidatos cuando su hada protectora Elba Esther Gordillo,">
+        <attvalues>
+          <attvalue for="0" value="6/14/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="82" source="16" target="18" weight="5" label="los Diputados Tomas Ruiz y Miguel Angel Yunes, se inconformaron acremente con la decision. Precandidatos ilusos desde siempre, ambos perdieron la escasa posibilidad de ser candidatos cuando su hada protectora Elba Esther Gordillo,">
+        <attvalues>
+          <attvalue for="0" value="6/14/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="83" source="16" target="23" weight="5" label="Miguel Angel Yunes y Tomas Ruiz, que se frustraron como aspirantes al gobierno de su entidad entre otros factores porque su cercania con Elba Esther Gordillo fue privilegio convertido en peso muerto que les impidio emprender el vuelo.">
+        <attvalues>
+          <attvalue for="0" value="6/2/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="84" source="16" target="18" weight="5" label="Miguel Angel Yunes y Tomas Ruiz, que se frustraron como aspirantes al gobierno de su entidad entre otros factores porque su cercania con Elba Esther Gordillo fue privilegio convertido en peso muerto que les impidio emprender el vuelo.">
+        <attvalues>
+          <attvalue for="0" value="6/2/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="85" source="16" target="21" weight="-2" label="Esa liga permitiria suponer que el lance del candidato renunciante contra Elba Esther Gordillo fuera el lance de Madrazo, necesitado de una coyuntura para deshacerse del lastre que para sus vuelos significa el que cogobierne el PRI con una adversaria peligrosa siempre,">
+        <attvalues>
+          <attvalue for="0" value="5/12/2004"/>
+        </attvalues>
+      </edge>
+      <edge id="86" source="58" target="53" weight="-1" label="Segun denunciaria despues Moreno, Madrazo conto con apuntador electronico: a traves de un audifono...">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="87" source="58" target="57" weight="1" label="... Madrazo, que conto con la presencia y simpatia del industrial y comerciante Victor Gonzalez Torres...">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="88" source="58" target="54" weight="-2" label="Su antimadracismo es claro, pero de intensidad distinta.">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="89" source="58" target="12" weight="-2" label="Su antimadracismo es claro, pero de intensidad distinta.">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="90" source="58" target="15" weight="-4" label="Chuayffet rompio la alianza asi ejercida con el tabasqueno cuando opto por la precandidatura de Arturo Montiel">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="91" source="13" target="51" weight="-1" label="Sin irle ni venirle cuestiono (Fox) el activismo politico de Diego Armando Maradona, emergido de una tragedia personal que casi lo destruyo">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="92" source="13" target="55" weight="-1" label="Pero tal vez los mandatarios no necesitaban ni querian encontrarse">
+        <attvalues>
+          <attvalue for="0" value="11/6/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="93" source="16" target="18" weight="4" label="...Gordillo y su ahijado Yunes.">
+        <attvalues>
+          <attvalue for="0" value="6/23/2008"/>
+        </attvalues>
+      </edge>
+      <edge id="94" source="2" target="107" weight="3" label="La  primera  relacion  laboral  ent re  la  SEP  y  el  SNT E  se  encarno  en  T orres  Bodet   y  Luis  Chav ez Orozco">
+        <attvalues>
+          <attvalue for="0" value="antes de 5/13/1974"/>
+        </attvalues>
+      </edge>
+      <edge id="95" source="67" target="16" weight="5" label="En  realidad  ese act o, conf irmara  el  pact o  poli t ico  ent re  Calderon y Gordillo">
+        <attvalues>
+          <attvalue for="0" value="5/15/2008"/>
+        </attvalues>
+      </edge>
+      <edge id="96" source="4" target="16" weight="5" label="Ella  f irmo  ent onces  como  subordinada  poli t ica  del  president e  Carlos  Salinas (que  la  habi a  aupado  t res  anos  ant es  al  liderazgo magist erial)">
+        <attvalues>
+          <attvalue for="0" value="5/1/1989"/>
+        </attvalues>
+      </edge>
+      <edge id="97" source="13" target="16" weight="5" label="Gordillo  act uo  ya  como  una  igual  del  president e  Fox,   que  en  la  ceremonia  correspondient e  la ant epuso  al  secret ario  general  del  sindicat o">
+        <attvalues>
+          <attvalue for="0" value="1/1/2002"/>
+        </attvalues>
+      </edge>
+      <edge id="98" source="85" target="16" weight="5" label="No  en  v ano  busco Gordillo  que  su  yerno  Fernando Gonzalez  sea  el  subsecret ario  de Educacion  Basica">
+        <attvalues>
+          <attvalue for="0" value="5/15/2008"/>
+        </attvalues>
+      </edge>
+      <edge id="99" source="18" target="16" weight="5" label="nueva Ley del ISSSTE, cuyo unico resultado neto es el reforzamiento politico de Elba Esther Gordillo y su testaferro Miguel Angel Yunes">
+        <attvalues>
+          <attvalue for="0" value="1/31/2007"/>
+        </attvalues>
+      </edge>
+      <edge id="100" source="18" target="16" weight="5" label="Dependiente de Elba Esther Gordillo en el breve lapso en que ella coordino a los Diputados priistas en la 59 legislatura, Yunes la precedio a su salida del PRI.">
+        <attvalues>
+          <attvalue for="0" value="9/10/2003"/>
+        </attvalues>
+      </edge>
+      <edge id="101" source="13" target="16" weight="5" label="Su incorporacion al Gabinete de Vicente Fox, y su posterior ascenso al de Calderon, ahora como director general del ISSSTE, confirmo la notoria vinculacion de Gordillo a las dos Administraciones panistas">
+        <attvalues>
+          <attvalue for="0" value="7/2/2000"/>
+        </attvalues>
+      </edge>
+      <edge id="102" source="67" target="16" weight="5" label="Su incorporacion al Gabinete de Vicente Fox, y su posterior ascenso al de Calderon, ahora como director general del ISSSTE, confirmo la notoria vinculacion de Gordillo a las dos Administraciones panistas">
+        <attvalues>
+          <attvalue for="0" value="7/2/2006"/>
+        </attvalues>
+      </edge>
+      <edge id="103" source="58" target="48" weight="-5" label="&quot;Madrazo nunca contara con nosotros&quot;">
+        <attvalues>
+          <attvalue for="0" value="10/19/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="104" source="16" target="49" weight="-5" label="&quot;al que pertenecio la presidenta del sindicato, y que consideraron una traicion su ascenso a la secretaria general en 1989&quot;">
+        <attvalues>
+          <attvalue for="0" value="10/19/2005"/>
+        </attvalues>
+      </edge>
+      <edge id="105" source="16" target="12" weight="5" label="A este le fue especialmente util la alianza antimadracista del sonorense con Elba Esther Gordillo, y el apoyo que expresamente le ofrecio cuando la coalicion ">
+        <attvalues>
+          <attvalue for="0" value="1/1/2003"/>
+        </attvalues>
+      </edge>
+      <edge id="106" source="12" target="76" weight="2" label="Con exagerada anticipacion se ha querido presentar a Juan Molinar, a Eduardo Bours, a Ernesto Gandara y a otros funcionarios del IMSS, ">
+        <attvalues>
+          <attvalue for="0" value="1/1/2008"/>
+        </attvalues>
+      </edge>
+      <edge id="107" source="12" target="106" weight="2" label="Con exagerada anticipacion se ha querido presentar a Juan Molinar, a Eduardo Bours, a Ernesto Gandara y a otros funcionarios del IMSS,">
+        <attvalues>
+          <attvalue for="0" value="1/1/2008"/>
+        </attvalues>
+      </edge>
+      <edge id="108" source="16" target="89" weight="-2" label="que antes que reducir el gasto universitario habria otras zonas de la vida publica que deberian ser afectadas, como el derroche practicado por Elba Esther Gordillo">
+        <attvalues>
+          <attvalue for="0" value="6/19/2009"/>
+        </attvalues>
+      </edge>
+      <edge id="109" source="16" target="46" weight="5" label=" Miguel Angel Jimenez  era integrante del bloque &quot;elbiazul&quot;,">
+        <attvalues>
+          <attvalue for="0" value="1/14/2009"/>
+        </attvalues>
+      </edge>
+      <edge id="110" source="16" target="5" weight="5" label=" papel que exactamente 20 anos atras tuvo en el ascenso de Elba Esther Gordillo al liderazgo magisterial.">
+        <attvalues>
+          <attvalue for="0" value="4/26/1989"/>
+        </attvalues>
+      </edge>
+      <edge id="111" source="16" target="82" weight="1" label="Martinez explorara la posibilidad de coaligarse con el partido de Elba Esther Gordillo para la eleccion federal en curso. Aunque ese nexo no se formalizo,">
+        <attvalues>
+          <attvalue for="0" value="4/19/2009"/>
+        </attvalues>
+      </edge>
+      <edge id="112" source="16" target="9" weight="4" label="Ademas, une al lider sindical y al Ejecutivo hidalguense su comun estrecha relacion con Elba Esther Gordillo,">
+        <attvalues>
+          <attvalue for="0" value="3/23/2009"/>
+        </attvalues>
+      </edge>
+      <edge id="113" source="16" target="87" weight="4" label="ya que Trujillo Fuentes se fue de ese partido a Nueva Alianza, que encabeza Elba Esther Gordillo">
+        <attvalues>
+          <attvalue for="0" value="3/17/2009"/>
+        </attvalues>
+      </edge>
+      <edge id="114" source="16" target="81" weight="2" label="al Presidente Nicolas Sarkozy. El SNTE de Elba Esther Gordillo dio la bienvenida al gobernante frances y le expreso &quot;su mas sincera satisfaccion">
+        <attvalues>
+          <attvalue for="0" value="11/3/2009"/>
+        </attvalues>
+      </edge>
+      <edge id="115" source="81" target="67" weight="3" label="Calderon no cesa de incrementar la virulencia de su posicion respecto de su colega frances Nicolas Sarkozy">
+        <attvalues>
+          <attvalue for="0" value="2/20/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="116" source="16" target="108" weight="2" label=" miembro del grupo de Nueva Alianza, que coordino desde septiembre del 2006 hasta abril pasado, en que fue removido por quien toma las decisiones en ese partido, Elba Esther Gordillo.">
+        <attvalues>
+          <attvalue for="0" value="1/19/2009"/>
+        </attvalues>
+      </edge>
+      <edge id="117" source="108" target="109" weight="4" label="n a su buena fe su desconocimiento de la relacion personal de Jimenez Godinez con el el ahora embajador Eduardo Medina Mora, que &quot;se lo lleva&quot; a la Gran Bretana.">
+        <attvalues>
+          <attvalue for="0" value="1/24/2010"/>
+        </attvalues>
+      </edge>
+      <edge id="118" source="108" target="110" weight="-5" label="Con ese caracter asistio a la reunion convocada por Mourino y en que Jimenez Godinez cometio el error que lo perdio. ">
+        <attvalues>
+          <attvalue for="0" value="4/20/2009"/>
+        </attvalues>
+      </edge>
+      <edge id="119" source="16" target="111" weight="-3" label="(entre ellos el de Coahuila, que de ese modo se distancio de su tutora, la presidenta del sindicato, Elba Esther Gordillo)">
+        <attvalues>
+          <attvalue for="0" value="11/10/2008"/>
+        </attvalues>
+      </edge>
+      <edge id="120" source="111" target="37" weight="4" label=" Humberto Moreira y luego lo llevo ante Enrique Pena Nieto, necesitado de un presidente del PRI sujeto enteramente a sus ordenes">
+        <attvalues>
+          <attvalue for="0" value="10/5/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="121" source="111" target="97" weight="-3" label="que no recibira de buen modo a quien ha iniciado acciones legales en torno al endeudamiento del Gobierno de Coahuila, que durante cinco anos fue encabezado por Humberto Moreira, su actual lider.">
+        <attvalues>
+          <attvalue for="0" value="9/8/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="122" source="16" target="67" weight="1" label="Firme en su alianza con el Presidente Calderon, Elba Esther Gordillo resolvio mostrar que no es una aliada comoda">
+        <attvalues>
+          <attvalue for="0" value="10/19/2008"/>
+        </attvalues>
+      </edge>
+      <edge id="123" source="16" target="113" weight="3" label="Carlos encabeza la seccion 38 del sindicato magisterial, con cuya lideresa nacional, Elba Esther Gordillo, mantiene el gobernador una productiva relacion.">
+        <attvalues>
+          <attvalue for="0" value="10/17/2008"/>
+        </attvalues>
+      </edge>
+      <edge id="124" source="113" target="111" weight="5" label="Moreira ha colocado a sus hermanos en posiciones clave. Ruben es el presidente del PRI estatal y Carlos encabeza la seccion 38 del sindicato magisterial,">
+        <attvalues>
+          <attvalue for="0" value="10/17/2008"/>
+        </attvalues>
+      </edge>
+      <edge id="125" source="113" target="114" weight="5" label="Moreira ha colocado a sus hermanos en posiciones clave. Ruben es el presidente del PRI estatal y Carlos encabeza la seccion 38 del sindicato magisterial,">
+        <attvalues>
+          <attvalue for="0" value="10/17/2008"/>
+        </attvalues>
+      </edge>
+      <edge id="126" source="16" target="115" weight="-4" label="No falto quien imaginara, en este espacio asi ocurrio, que esos proyectos incluian la presidencia del partido Nueva Alianza, lo que suponia que Elba Esther Gordillo, manager de Campa, le habia impuesto ese nuevo destino,">
+        <attvalues>
+          <attvalue for="0" value="9/1/2008"/>
+        </attvalues>
+      </edge>
+      <edge id="127" source="115" target="67" weight="2" label="Es de esperarse que Calderon no designe a su favorito Genaro Garcia Luna,">
+        <attvalues>
+          <attvalue for="0" value="8/29/2011"/>
+        </attvalues>
+      </edge>
+      <edge id="128" source="16" target="116" weight="4" label=" Administracion de los Servicios Educativos para el Distrito Federal, cuyo titular, Luis Ignacio Sanchez, goza de la confianza personal de Gordillo,">
+        <attvalues>
+          <attvalue for="0" value="9/25/2008"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
