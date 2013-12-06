@@ -1,16 +1,18 @@
-import gspread as G
+import gspread as g
 import getpass
 
-def docu():
-	x = 1
+gc = None
 
+def session():
+	x = 1
+	global gc
 	while x == 1:
 		usr = raw_input('gmail:')
 
 		pwd = getpass.getpass('password:')
 
 		try:
-			gc = G.login(usr, pwd)
+			gc = g.login(usr, pwd)
 			x = 2
 		except:
 			print 'No se pudo acceder a tu cuenta.'
@@ -21,7 +23,11 @@ def docu():
 				print 'Adios.'
 				exit()
 
-	arch = raw_input('Nombre, llave o URL del archivo:')
+def get_cols_from_doc(arch):
+	#arch = raw_input('Nombre, llave o URL del archivo:')
+	#Nodos
+	#arch = 'https://docs.google.com/spreadsheet/ccc?key=0Am6c--_scDIGdDZZbmJycXYtZ21WckVUYUFseW5wZXc&usp=sharing#gid=0'
+	global gc
 	try:
 		print 'Accediendo al archivo %s...' % arch
 		ss = gc.open(arch)
