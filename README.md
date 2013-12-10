@@ -10,3 +10,6 @@ Structure
 run_me.py is obiously the file you need to run (main file).
 
 doc_acces.py is the file that contains the functions to acces Google Doc's Spreadsheets (with gspread https://github.com/burnash/gspread).
+
+
+This code is under the Creative Commons license Atribución-No Comercial-No Derivadas 2.5 (México) http://creativecommons.org/licenses/by-nc-nd/2.5/mx/legalcode
